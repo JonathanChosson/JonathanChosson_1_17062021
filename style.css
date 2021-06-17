@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-image:url('./public/image/fond1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    position: relative;
+    top: 20rem;
+    letter-spacing: 5px;
+}
+
+/*Section*/
+
+.img1{
+    background: url('./public/image/fond5.png');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: rgb(36, 23, 153);
+    line-height: 1.5rem;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-weight: 150;
+    padding: 3.5rem;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Pacifico', sans-serif;
+    line-height: 1.3rem;
+    margin-bottom: 3.5rem;
+}
+
+.date{
+    font-size: 2rem;
+}
+
+.text{
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    margin: 0 3rem;
+    line-height: 3.5rem;
+    font-style: bold;
+}
+
+.img{
+    height: 70%;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow:  29px 29px 58px #6d8395,
+             -29px -29px 58px #ffffff00;
+}
+
+/*Deuxieme section*/
+
+.img2{
+    background: url('./public/image/fond4.png');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
