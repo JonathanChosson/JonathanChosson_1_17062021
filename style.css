@@ -38,7 +38,9 @@ h1 {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 80%;
     height: auto;
     text-align: center;
@@ -50,7 +52,8 @@ h1 {
     font-weight: 150;
     padding: 3.5rem;
     background: rgba( 255, 255, 255, 0.50 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11px );
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
@@ -80,7 +83,9 @@ h2 {
     width: 60%;
     height: auto;
     border-radius: 15px;
-    box-shadow:  29px 29px 58px #6d8395,
+    -webkit-box-shadow:  29px 29px 58px #6d8395,
+                -29px -29px 58px #ffffff00;
+            box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
 }
 
@@ -88,7 +93,9 @@ h2 {
     width: 40%;
     height: auto;
     border-radius: 15px;
-    box-shadow:  29px 29px 58px #6d8395,
+    -webkit-box-shadow:  29px 29px 58px #6d8395,
+                -29px -29px 58px #ffffff00;
+            box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
 }
 
@@ -140,7 +147,9 @@ table.blueTable {
     text-align: left;
     border-collapse: collapse;
     font-size: 25px;
-    box-shadow:  29px 29px 58px #6d8395,
+    -webkit-box-shadow:  29px 29px 58px #6d8395,
+                -29px -29px 58px #ffffff00;
+            box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
 }
 table.blueTable td, table.blueTable th {
@@ -154,8 +163,8 @@ table.blueTable tr:nth-child(even) {
 }
 table.blueTable thead {
     background: #1C6EA4;
-    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#5592bb), color-stop(66%, #327cad), to(#1C6EA4));
+    background: -o-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
     background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
     border-bottom: 2px solid #444444;
 }
@@ -173,8 +182,8 @@ table.blueTable tfoot {
     font-weight: bold;
     color: #FFFFFF;
     background: #D0E4F5;
-    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#dcebf7), color-stop(66%, #d4e6f6), to(#D0E4F5));
+    background: -o-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
     background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
     border-top: 2px solid #444444;
 }
