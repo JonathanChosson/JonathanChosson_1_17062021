@@ -80,7 +80,7 @@ h2 {
 }
 
 .image{
-    width: 60%;
+    width: 100%;
     height: auto;
     border-radius: 15px;
     -webkit-box-shadow:  29px 29px 58px #6d8395,
@@ -146,7 +146,6 @@ table.blueTable {
     width: 100%;
     text-align: left;
     border-collapse: collapse;
-    font-size: 25px;
     -webkit-box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
             box-shadow:  29px 29px 58px #6d8395,
@@ -209,6 +208,13 @@ table.blueTable tfoot .links a{
     h1 {
         font-size: 4rem;
     }
+    .text{
+        font-size: 2.5rem;
+        margin: 0px;
+    }
+    .box {
+        height: auto;
+    }
 }
 
 @media screen and (max-width:568px) {
@@ -238,5 +244,10 @@ table.blueTable tfoot .links a{
     
     .img4{
         height: 100vh;
+    }
+
+    .text{
+        font-size: 2.5rem;
+        margin: 0px;
     }
 }
