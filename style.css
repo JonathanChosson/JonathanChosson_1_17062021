@@ -49,7 +49,7 @@ h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 150;
     padding: 3.5rem;
-    background: rgba( 255, 255, 255, 0.40 );
+    background: rgba( 255, 255, 255, 0.50 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11px );
     -webkit-backdrop-filter: blur( 6.5px );
@@ -77,8 +77,8 @@ h2 {
 }
 
 .img{
-    height: 70%;
-    width: 70%;
+    width: 80%;
+    height: auto;
     border-radius: 15px;
     box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
@@ -104,10 +104,20 @@ h2 {
     background-attachment: fixed;
 }
 
-/*Quetrieme section*/
+/*Quatrieme section*/
 
 .img4{
     background: url('./public/image/fond\ 7.png');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Cinquieme section*/
+
+.img5{
+    background: url('./public/image/fond9.jpg');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -171,4 +181,44 @@ table.blueTable tfoot .links a{
     color: #FFFFFF;
     padding: 2px 8px;
     border-radius: 5px;
+}
+
+/*Responsive*/
+@media screen and (max-width:849px) {
+    h2 {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:568px) {
+    html {
+        font-size: 40%;
+    }
+    .box {
+        height: auto;
+    }
+
+    .img1{
+        height: 100vh;
+    }
+    /*Deuxieme section*/
+    
+    .img2{
+        height: 100vh;
+    }
+    
+    /*Troisième section*/
+    
+    .img3{
+        height: 100vh;
+    }
+    
+    /*Quatrieme section*/
+    
+    .img4{
+        height: 100vh;
+    }
 }
