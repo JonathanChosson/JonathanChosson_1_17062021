@@ -76,13 +76,22 @@ h2 {
     font-style: bold;
 }
 
-.img{
-    width: 80%;
+.image{
+    width: 60%;
     height: auto;
     border-radius: 15px;
     box-shadow:  29px 29px 58px #6d8395,
                 -29px -29px 58px #ffffff00;
 }
+
+.image2{
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow:  29px 29px 58px #6d8395,
+                -29px -29px 58px #ffffff00;
+}
+
 
 /*Deuxieme section*/
 
