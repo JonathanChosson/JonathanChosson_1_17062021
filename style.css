@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -28,7 +27,7 @@ h1 {
 /*Section*/
 
 .img1{
-    background: url('./public/image/fond5.png');
+    background: url('./public/image/fond8.png');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -46,12 +45,13 @@ h1 {
     color: rgb(36, 23, 153);
     line-height: 1.5rem;
     /* font-family: 'Shadows Into Light', sans-serif; */
-    font-family: 'Viaoda Libre', cursive;
+    /* font-family: 'Viaoda Libre', cursive; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 150;
     padding: 3.5rem;
     background: rgba( 255, 255, 255, 0.40 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 9px );
+    backdrop-filter: blur( 11px );
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
