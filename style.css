@@ -215,6 +215,11 @@ table.blueTable tfoot .links a{
     .box {
         height: auto;
     }
+    /*Troisième section*/
+    
+    .img3{
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:568px) {
@@ -237,7 +242,7 @@ table.blueTable tfoot .links a{
     /*Troisième section*/
     
     .img3{
-        height: 100vh;
+        height: 100%;
     }
     
     /*Quatrieme section*/
